@@ -1,0 +1,27 @@
+@use 'variables';
+
+@mixin crear-flexbox($justify,$align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin crear-grid($colum,$row){
+    display: grid;
+    grid-template-columns: $colum;
+    grid-template-rows: $row;
+}
+
+@mixin crear-title{
+    font-family: variables.$font-title;
+    font-size: 3rem;
+    text-align: center;
+    padding: variables.$padding-first;
+    color: variables.$color-first;
+}
+
+@mixin crear-parrafo{
+    font-family: variables.$font-parrafo;
+    font-size: 2rem;
+    padding: 0 8rem;
+}

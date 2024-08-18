@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yesica Perlaza">
+    <meta name="description" content="Bievenidos al restaurante MERLING en el podras vivir una experiencia culinaria mexicana">
+    <meta name="keyword" content="restaurante,mexico,comidas,plato fuerte,entradas,menu infantil">
+    <link rel="icon" href="images/Logo.png">
+    <title>MERLING</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="nav">
+        <h2 class="nav__logo">
+            <span class="nav__logo--span">MER</span><span class="nav__logo--span">LI</span><span class="nav__logo--span">NG</span>
+        </h2>
+        <nav class="nav__content">
+            <a class="nav__content--link" href="index.html">Inicio</a>
+            <a class="nav__content--link" href="html/nosotros.html">Nosotros</a>
+            <a class="nav__content--link" href="html/menu.html">Menu</a>
+            <a class="nav__content--link" href="html/contacto.html">Contacto</a>
+        </nav>
+        <button class="nav__btnM">
+            <img class="nav__btnM--menu" src="images/menu.svg" alt="menu.svg">
+        </button>
+        <button class="nav__btnC">
+            <img class="nav__btnC--close" src="images/close.svg" alt="menu.svg">
+        </button>
+    </header>
+    
+    
+    <main class="hero">
+        <div class="hero__content" >
+            <!-- class="hero__content--imagen"  -->
+            <video class="hero__content--imagen" autoplay preload="auto" loop muted src="video/video1.mp4"></video>  
+        </div>
+        <div class="hero__bienv">
+            <img class="hero__bienv--logo" src="images/Logo.png" alt="Logo del restaurante">
+            <h1 class="hero__bienv--title">TE DAMOS LA BIENVENIDAD</h1>
+        </div> 
+    </main>
+
+    <section class="product">
+        <h2 class="product__title">NUEVOS PRODUCTOS</h2>
+        <article class="product__cont">
+            <div class="product__cont--platos">
+                <button class="product__cont--platos-btn" data-id="1">
+                    <img class="product__cont--platos-btn_icon" src="images/search.svg" alt="search.svg">
+                </button>
+                <img class="product__cont--platos-img" src="https://www.comedera.com/wp-content/uploads/2017/08/tacos-al-pastor-receta.jpg" alt="tacos al pastor">
+                <h3 class="product__cont--platos-nombre">Tacos al pastor</h3>
+            </div>
+            <div class="product__cont--platos">
+                <button class="product__cont--platos-btn" data-id="2">
+                    <img class="product__cont--platos-btn_icon" src="images/search.svg" alt="search.svg">
+                </button>
+                <img class="product__cont--platos-img" src="https://cdn7.kiwilimon.com/recetaimagen/959/22479.jpg" alt="Nachos">
+                <h3 class="product__cont--platos-nombre">Nachos</h3>
+            </div>
+            <div class="product__cont--platos">
+                <button class="product__cont--platos-btn" data-id="3">
+                    <img class="product__cont--platos-btn_icon" src="images/search.svg" alt="search.svg">
+                </button>
+                <img class="product__cont--platos-img" src="https://mejorconsalud.as.com/wp-content/uploads/2020/12/plato-mexicano-sope.jpg" alt="Sopes de pollo">
+                <h3 class="product__cont--platos-nombre">Sopes de pollo</h3>
+            </div>
+        </article>
+        <article class="product__modal">
+            <div class="product__modal--cont">
+                <button class="product__modal--cont-btn">
+                    <img class="product__modal--cont-btnImagen" src="images/close2.svg" alt="close2.svg">
+                </button>
+                <img class="product__modal--cont-img" src="" alt="">
+                <div class="product__modal--cont-desc">
+                    <h2 class="product__modal--cont-descTitle"></h2>
+                    <p class="product__modal--cont-descParrafo"></p>
+                    <p class="product__modal--cont-descDetalle"></p>
+                </div>
+            </div>
+        </article>
+    </section>
+    
+    <section class="event">
+        <h2 class="event__title">CELEBRACIONES Y EVENTOS</h2>
+        <article class="event__cont event__cont--show" data-id="1">
+            <img class="event__cont--flecha btn__izq" src="images/arrowLeft.svg" alt="flecha izquierda">
+            <img class="event__cont--img" src="https://media.istockphoto.com/id/625673494/es/foto/ambiente-de-vacaciones.jpg?s=612x612&w=0&k=20&c=s8_VgeMGJ2jLdNw7U_HUkjKt2TQ4x0D2RP6v_JSj80c=" alt="Plan romantico">
+            <div class="event__cont--plan">
+                <h2 class="event__cont--plan-title">PLANES ROMANTICOS</h2>
+                <p class="event__cont--plan-parrafo"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum voluptatibus velit nobis voluptate fuga deserunt ex ducimus eos, aspernatur hic numquam laboriosam, omnis dicta fugiat beatae accusantium soluta similique in? Lorem ipsum dolor sit amet consectetur</p>
+                <a class="event__cont--plan-boton" href="html/planRomantico.html">Leer mas</a>
+            </div>
+            <img class="event__cont--flecha btn__der" src="images/arrowRigth.svg" alt="flecha derecha">
+        </article>
+        <article class="event__cont" data-id="2">
+            <img class="event__cont--flecha btn__izq" src="images/arrowLeft.svg" alt="flecha izquierda">
+            <img class="event__cont--img" src="https://imagenes.lacelebracion.com/Temas%20varios%202/Decoracion/Fiestas%20en%20restaurantes%201.JPEG" alt="Plan cumpleaños">
+            <div class="event__cont--plan">
+                <h2 class="event__cont--plan-title">PLANES DE CUMPLEAÑOS</h2>
+                <p class="event__cont--plan-parrafo"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum voluptatibus velit nobis voluptate fuga deserunt ex ducimus eos, aspernatur hic numquam laboriosam, omnis dicta fugiat beatae accusantium soluta similique in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aut ipsa culpa nisi cumque officiis</p>
+                <a class="event__cont--plan-boton" href="html/planCumpleaños.htm">Leer mas</a>
+            </div>
+            <img class="event__cont--flecha btn__der" src="images/arrowRigth.svg" alt="flecha derecha">
+        </article>
+        <article class="event__cont" data-id="3">
+            <img class="event__cont--flecha btn__izq" src="images/arrowLeft.svg" alt="flecha izquierda">
+            <img class="event__cont--img" src="https://cdn0.matrimonio.com.co/vendor/8187/3_2/960/jpg/ivn-9986-editar-editar_10_108187.jpeg" alt="Plan matrimonio">
+            <div class="event__cont--plan">
+                <h2 class="event__cont--plan-title">PLANES DE MATRIMONIO</h2>
+                <p class="event__cont--plan-parrafo"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum voluptatibus velit nobis voluptate fuga deserunt ex ducimus eos, aspernatur hic numquam laboriosam, omnis dicta fugiat beatae accusantium soluta similique in? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a class="event__cont--plan-boton" href="html/planMatrimonio.html">Leer mas</a>
+            </div>
+            <img class="event__cont--flecha btn__der" src="images/arrowRigth.svg" alt="flecha derecha">
+        </article>
+        <article class="event__cont" data-id="4">
+            <img class="event__cont--flecha btn__izq" src="images/arrowLeft.svg" alt="flecha izquierda">
+            <img class="event__cont--img" src="https://i.pinimg.com/736x/e9/0c/8d/e90c8dde3a3287c67e67b8fa7d2cea9a--cali-colombia-victoria.jpg" alt="Plan de grado">
+            <div class="event__cont--plan">
+                <h2 class="event__cont--plan-title">PLANES DE GRADO</h2>
+                <p class="event__cont--plan-parrafo"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum voluptatibus velit nobis voluptate fuga deserunt ex ducimus eos, aspernatur hic numquam laboriosam, omnis dicta fugiat beatae accusantium soluta similique in? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex doloribus accusamus repudiandae atque</p>
+                <a class="event__cont--plan-boton" href="html/planGrado.html">Leer mas</a>
+            </div>
+            <img class="event__cont--flecha btn__der" src="images/arrowRigth.svg" alt="flecha derecha">
+        </article>
+    </section>
+
+    <footer class="f">
+        <img class="f__imagen" src="https://www.nvinoticias.com/sites/default/files/styles/medium/public/infogaleria/2022/Sep/comida_mexicana.jpg.webp?itok=E9MjzEBu" alt="gastronomia mexicana">
+        <div class="f__cont">
+            <div class="f__cont--redes">
+                <a class="f__cont--redes-icon" href="#"><img class="f__cont--redes-icon" src="images/facebook.svg" alt="facebook.svg"></a>
+                <a class="f__cont--redes-icon" href="#"><img class="f__cont--redes-icon" src="images/instagram.svg" alt="instagram.svg"></a>
+                <a class="f__cont--redes-icon" href="#"><img class="f__cont--redes-icon" src="images/whatsapp.svg" alt="whatssapp.svg"></a>
+                <a class="f__cont--redes-icon" href="#"><img class="f__cont--redes-icon" src="images/messenger.svg" alt="messenger.svg"></a>
+                <div class="f__cont--hr">
+                    <h3 class="f__cont--hr-title">Horarios:</h3>
+                    <p class="f__cont--hr-parrafo">
+                        <b>Lunes - Viernes:</b> 11:00 am - 10:00 pm <br>
+                        <b>Sabados - Domingos - Festivos:</b> 11:00 am - 11:30 pm  
+                    </p>
+                </div>
+                <ul class="f__cont--lista">
+                    <li class="f__cont--lista-li"><a class="f__cont--lista-liLink" href="#">Politicas de privacidad</a></li>
+                    <li class="f__cont--lista-li"><a class="f__cont--lista-liLink" href="#">Cookies</a></li>
+                    <li class="f__cont--lista-li"><a class="f__cont--lista-liLink" href="#">©Yesica Perlaza</a></li>
+                </ul>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="js/navbar.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
